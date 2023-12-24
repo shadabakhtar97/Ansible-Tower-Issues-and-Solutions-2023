@@ -26,6 +26,4 @@ The error message indicates that Ansible is unable to connect to the hosts "web0
 
 6. **User Permissions**: Ensure that the user specified in your Ansible playbook has the necessary permissions to connect via SSH and perform the required tasks on the target hosts.
 
-Once you have verified and addressed these issues, try running your Ansible playbook again. If the problem persists, you may need to investigate further based on the specific circumstances of your environment.
-
-### -----------------------------------------------------------------------------
+### ------------------------------------------------------------------------------------------
