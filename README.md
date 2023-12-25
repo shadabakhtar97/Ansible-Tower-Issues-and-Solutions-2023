@@ -12,6 +12,11 @@ web02.example.com          : ok=0    changed=0    unreachable=1    failed=0    s
 
 ### Solution
 
+vim /etc/ssh/ssh_config
+
+![image](https://github.com/shadabakhtar97/Ansible-Tower-Issues-and-Solutions-2023/assets/43212251/0193405b-bc03-4c7a-afd8-b37545d57cb5)
+
+
 The error message indicates that Ansible is unable to connect to the hosts "web01.example.com" and "web02.example.com" via SSH. The most common reasons for this error include:
 
 1. **SSH Service not running**: Ensure that the SSH service is running on the target hosts. Check if the SSH daemon is running and configured to listen on port 22.
